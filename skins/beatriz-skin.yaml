@@ -1,87 +1,81 @@
 name: beatriz-skin
-description: "Beatriz Agent — soft interface, sharp judgement"
+description: Beatriz Agent — soft interface, sharp judgement
 colors:
-  banner_border: "#E8AEB7"
-  banner_title: "#C7A6D9"
-  banner_accent: "#F3D9DC"
-  banner_dim: "#9B7DAD"
-  banner_text: "#EDE0F5"
-  ui_accent: "#E8AEB7"
-  ui_label: "#D4B7CB"
-  ui_ok: "#8FBCA0"
-  ui_error: "#D49AA8"
-  ui_warn: "#D4BC90"
-  prompt: "#F5EEF7"
-  input_rule: "#E8AEB7"
-  response_border: "#C4A6D0"
-  session_label: "#F3D9DC"
-  session_border: "#7C6080"
+  banner_border: "#e8aeb7"
+  banner_title: "#c7a6d9"
+  banner_accent: "#f3d9dc"
+  banner_dim: "#9b7dad"
+  banner_text: "#ede0f5"
+  ui_accent: "#e8aeb7"
+  ui_label: "#d4b7cb"
+  ui_ok: "#8fbca0"
+  ui_error: "#d49aa8"
+  ui_warn: "#d4bc90"
+  prompt: "#f5eef7"
+  input_rule: "#e8aeb7"
+  response_border: "#c4a6d0"
+  session_label: "#f3d9dc"
+  session_border: "#7c6080"
 spinner:
   waiting_faces:
-    - "੨ੱ"
-    - "✯"
-    - "☽"
-    - "✦"
+    - ੨ੱ
+    - ✯
+    - ☽
+    - ✦
   thinking_faces:
-    - "੨ੱ"
-    - "✯"
-    - "☽"
-    - "✦"
+    - ੨ੱ
+    - ✯
+    - ☽
+    - ✦
   thinking_verbs:
     - auditing
     - reviewing
     - scanning
     - checking
   wings:
-    - - "⌜"
-      - "⌝"
-    - - "⌞"
-      - "⌟"
+    - - ⌜
+      - ⌝
 branding:
-  agent_name: "Beatriz Agent"
-  welcome: "Beatriz Agent online. ੨ੱ ──── ✦ ──── ੨ੱ"
-  goodbye: "Stay sharp. ✦"
+  agent_name: Beatriz Agent
+  welcome: Beatriz Agent online. ੨ੱ ──── ✦ ──── ੨ੱ
+  goodbye: Stay sharp. ✦
   response_label: " ੨ੱ Beatriz ੨ੱ "
   prompt_symbol: "✦ "
-  help_header: "( ੨ੱ ) Available Commands"
-tool_prefix: "┊"
+  help_header: ( ੨ੱ ) Available Commands
+tool_prefix: ┊
 tool_emojis:
-  terminal: "⌨"
-  web_search: "⟐"
-  browser_navigate: "➡"
-  file: "⊑"
-  todo: "☐"
+  terminal: ⌨
+  web_search: ⟐
+  browser_navigate: ➡
+  file: ⊑
+  todo: ☐
 banner_logo: |-
-  [#E8AEB7]______            _        _        ___                   _[/]
-  [#E8B3C0]| ___ \          | |      (_)      / _ \                 | |[/]
-  [#C7A6D9]| |_/ / ___  __ _| |_ _ __ _ ____ / /_\ \ __ _  ___ _ __ | |_[/]
-  [#C4A8D6]| ___ \/ _ \/ _` | __| '__| |_  / |  _  |/ _` |/ _ \ '_ \| __|[/]
-  [#B89AC8]| |_/ /  __/ (_| | |_| |  | |/ /  | | | | (_| |  __| | | | |_[/]
-  [#A889B9]\____/ \___|\__,_|\__|_|  |_/___| \_| |_/\__, |\___|_| |_|\__|[/]
-  [#9B7DAD]                                          __/ |[/]
-  [#8B6F9E]                                         |___/[/]
+  [bold #e8aeb7]______            _        _        ___                   _
+  | ___ \          | |      (_)      / _ \                 | |
+  | |_/ / ___  __ _| |_ _ __ _ ____ / /_\ \ __ _  ___ _ __ | |_
+  | ___ \/ _ \/ _` | __| '__| |_  / |  _  |/ _` |/ _ \ '_ \| __|
+  | |_/ /  __/ (_| | |_| |  | |/ /  | | | | (_| |  __| | | | |_
+  \____/ \___|\__,_|\__|_|  |_/___| \_| |_/\__, |\___|_| |_|\__|
+                                            __/ |
+                                           |___/[/]
 banner_hero: |-
-  [#F3D9DC]                     jnnObzUn/1n[/]
-  [#E8C0CC]                   u$$$$$$$$$$$$$Qn[/]
-  [#E8AEB7]                  ,$$$$$$$$$$$$$$$$$I[/]
-  [#E0A8B8]               n$$wJO&$$$$$$$$$$$$$$$n[/]
-  [#D8A0B0]              d$$$$$dk&b$$$$$$$$$$$$$$L[/]
-  [#C7A6D9]             p%$$$$$$$$$w$M$a$@$$$$$$$$;[/]
-  [#BA9CCF]            p$$$$$$$$$$$$m$nX8$$$b$$$$$$[/]
-  [#AD92C5]           nM$$$$$$$$$$$tn n"$Jqh,$$$$$$[/]
-  [#A087BB]           $$$$n$$$$nW/];nnnmnnY t$$$$$$l[/]
-  [#937DB1]          Y$$$ln$$$i `cpqn&' .I-M$aa$$$$&[/]
-  [#8672A7]          $$$$$?$$$ `^ ^`! ...]nL!$$$$$$][/]
-  [#79689D]         x%$$$$Wz$$, ","":'  ,|!!-_$$$$`[/]
-  [#6C5E93]        n_$$$$$$$$$ .... . ~-r]l~ $$$$$n[/]
-  [#5F5489]        t $$$$$$$$$&  . :nnnn`l;.$$$$$$`[/]
-  [#524A7F]         h$$$$$$$$$$8n `` -n\i n$$$$$$$n[/]
-  [#454075]         $$$$$$$$$$$ QBn].  n*$$$$$$$$$$[/]
-  [#38346B]        @$$$$$$$$$$$$nUZm&$$$$$$$$$$$$$tY[/]
-  [#2B2861]       `!$\#$$$$$$$$$$$$$$$$$$$$$$$$$$& }[/]
-  [#1E1C57]        und$$$$$$$$$$$$$hh$$$$$$$$$$$nj[/]
-  [#1A1850]         nn$$$$$$$$$$$$$$$$$$$$$$$$$$$n[/]
-  [#161449]  ":xf8pm*L[n$$$$$$x]v$$$$$$$$$$Z$$$$$$$Xnn[/]
-  [#121042]LCXzm]tmOcOfC(n$$$$$$On$$$$$$$$#pz%$m&Mqo8o&z}[/]
-  [#0E0C3B]upc/k$:cUC/Jdaq$$$$$$$$$Op$$$$$vqqYBk$$$@h$Q%$o[/]
-  [#0A0834]OQ$lbq%IUUZ\{xXXM$$$$$$bZbao$$$zYndWOY*%hw**L$$@[/]
+  [bold dim #f3d9dc]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣶⣶⣶⣶⣶⣄⣢⣄⡀
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢐⣵⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣦⡀
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣔⣴⣨⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢫⠟⣸⢹⣿⣿⡟⣿⣿⣿⣿⣿⡀
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢼⣻⣿⡿⣿⣿⣿⣿⢿⣿⠯⢵⣁⡰⢃⣿⢃⡿⠁⣿⣿⣿⣿⣿⡇
+  ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⠃⣸⣿⣿⠋⠚⢴⣶⣶⢮⠉⠛⠡⠊⡠⠾⡾⣿⣿⣿⣿⣧
+  ⠀⠀⠀⠀⠀⠀⠀⠀⣸⣻⣿⣿⡨⢿⢿⣿⠀⠀⠀⠁⠑⠈⠁⠀⠀⠪⠾⡟⣻⣾⣿⣿⣿⢹
+  ⠀⠀⠀⠀⠀⠀⠀⢠⡽⣿⣿⣿⣷⣝⣿⡿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢁⣿⣿⣿⡟⠸
+  ⠀⠀⠀⠀⠀⠀⠀⠎⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠂⠔⠁⠀⠀⣼⣿⣿⣿⣧
+  ⠀⠀⠀⠀⠀⠀⠀⢂⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠐⠒⣲⣶⠄⠀⢀⣾⣿⣿⣿⣿⡇⠂
+  ⠀⠀⠀⠀⠀⠀⠀⠰⣿⣿⣿⣿⣿⣿⣿⣿⡏⢿⣦⡀⠀⠀⠉⠀⣠⣴⣿⣿⣿⣿⣿⣿⣿⡀
+  ⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣻⢿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⡇
+  ⠀⠀⠀⠀⠀⠀⠨⣸⣏⢼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⡇
+  ⠀⠀⠀⠀⠀⠀⠐⢣⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠃⠁
+  ⠀⠀⠀⠀⢀⣀⣬⣌⡎⣽⣿⣿⣿⣿⣿⡿⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀
+  ⡠⡪⡶⣟⠁⢿⣽⣟⡧⣿⣆⢻⣿⣿⣿⣿⣭⣮⡛⣿⣿⣿⣿⣿⣿⣿⣿⣽⢿⣿⣿⣿⣿⣿⣿⣷⣄
+  ⡳⣿⠁⣿⣷⠀⢷⣿⡽⣵⣧⣥⣾⣿⣿⣿⣿⣾⣿⣿⣟⢿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣵⡀
+  ⢟⣝⡇⢿⣻⣇⢙⣟⣿⣖⣆⢿⣾⣿⣿⣿⣿⣿⣿⣯⡻⢷⣽⣿⣿⣿⣿⣺⣕⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷[/]
