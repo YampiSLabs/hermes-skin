@@ -1,10 +1,14 @@
 # Beatriz Skin
 
-A custom [Hermes CLI](https://github.com/cocktailpeanut/hermes-mod) skin for **Beatriz Agent** — purple cyberpunk audit theme.
+A custom [Hermes CLI](https://github.com/cocktailpeanut/hermes-mod) skin for **Beatriz Agent** — soft interface, sharp judgement.
 
-## Preview
+## Palette
 
-![](https://img.shields.io/badge/theme-purple%20cyberpunk-%23A855F7)
+| Role | Color |
+|------|-------|
+| Rose | `#E8AEB7` |
+| Lavender | `#C7A6D9` |
+| Dusty pink | `#F3D9DC` |
 
 ## Install
 
@@ -40,8 +44,8 @@ Then open `http://127.0.0.1:3210`, select **beatriz-skin** in Skin Studio, and c
 | `branding` | Agent name, welcome/goodbye messages, prompt symbol |
 | `tool_prefix` | Prefix character for tool output lines |
 | `tool_emojis` | Emoji overrides per tool type |
-| `banner_logo` | Figlet-generated ASCII logo with color tags |
-| `banner_hero` | Braille art hero image with color gradient |
+| `banner_logo` | Figlet ASCII logo with rose-to-mauve gradient |
+| `banner_hero` | ASCII art avatar with color gradient |
 
 ## CI
 
