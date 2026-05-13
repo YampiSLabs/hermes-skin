@@ -28,8 +28,8 @@ for f in os.listdir(skins_dir):
         with open(path) as fh:
             data = yaml.safe_load(fh)
         assert isinstance(data, dict), 'not a dict'
-        assert data.get('name'), f'missing name'
-        assert data.get('colors'), f'missing colors'
+        assert data.get('name'), 'missing name'
+        assert data.get('colors'), 'missing colors'
         required = ['banner_border','banner_title','banner_accent','banner_dim',
                      'banner_text','ui_accent','ui_label','ui_ok','ui_error',
                      'ui_warn','prompt','input_rule','response_border',
