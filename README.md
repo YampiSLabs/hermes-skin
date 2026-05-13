@@ -43,6 +43,10 @@ Then open `http://127.0.0.1:3210`, select **beatriz-skin** in Skin Studio, and c
 | `banner_logo` | Figlet-generated ASCII logo with color tags |
 | `banner_hero` | Braille art hero image with color gradient |
 
+## CI
+
+[![validate](https://github.com/YampiSLabs/hermes-skin/actions/workflows/validate.yaml/badge.svg)](https://github.com/YampiSLabs/hermes-skin/actions/workflows/validate.yaml)
+
 ## License
 
 MIT
